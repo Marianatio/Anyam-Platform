@@ -1,6 +1,11 @@
-Thanks for downloading this template!
+Anyam Platform 
+Merupakan platform yang berfungsi untuk memberikan pelayanan terhadap pencegahan pelecehan seksual terutama pada wanita dan anak-anak.
+Adapun fitur utama dalam aplikasi ini yaitu fitur pelaporan dimana selain memberikan edukasi seksual, 
+aplikasi ini juga mendukung pengguna untuk melaporkan kasus seksual kepada pihak-pihak terkait seperti polisi, relawan, fasilitator, komnas perempuan
 
-Template Name: Logis
-Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Anggota tim Anyam platform terdiri dari:
+1. Rambati Lumbung Pardja
+2. Maria Anggraini Natio
+3. Amelia Noormufida W.H.
+4. Tegar Karunia Ilham
+
