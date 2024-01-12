@@ -9,3 +9,9 @@ Anggota tim Anyam platform terdiri dari:
 3. Amelia Noormufida W.H.
 4. Tegar Karunia Ilham
 
+Tampilan
+Halaman login Anyam
+![halaman login](https://github.com/Marianatio/Anyam-Platform/assets/95406970/139c8fc2-955f-4250-9b2c-88102b160d43)
+
+Halaman Fitur Report
+![halaman report](https://github.com/Marianatio/Anyam-Platform/assets/95406970/fa680ab7-64d6-4fb5-b3ac-0927efbccf39)
