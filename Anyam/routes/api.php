@@ -4,7 +4,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FirebaseController;
 use App\http\controllers\PelaporanController;
-
+use App\http\controllers\FasilitatorController;
+use App\http\Controllers\ModulKomikController;
+use App\http\Controllers\LaporankekerasanSeksualController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,4 +33,16 @@ Route::post('/firebase-config', [FirebaseController::class, 'setFirebaseConfig']
 Route::get('/firebase-config', [FirebaseController::class, 'getFirebaseConfig']);
 Route::get('/getdatapelaporan',[PelaporanController::class,'getdatapelaporan']);
 Route::get('/postdatapelaporan',[PelaporanController::class,'postdatapelaporan']);
+
+Route::get('/getdatafasilitator', [FasilitatorController::class, 'getdatafasilitator']);
+Route::get('/postdatafasilitator', [FasilitatorController::class, 'postdatafasilitator']);
+Route::get('/deletedatafasilitator', [FasilitatorController::class, 'deletedatafasilitator']);
+
+Route::get('/getdatamodulkomik',[ModulKomikController::class,'getdatamodulkomik']);
+Route::get('/postdatamodulkomik',[ModulKomikController::class,'postdatamodulkomik']);
+Route::get('/deletedatamodulkomik',[ModulKomikController::class,'deletedatamodulekomik']);
+
+Route::get('/getdatalaporankekerasanseksual',[LaporankekerasanSeksualController::class,'getdatalaporankekerasanseksual']);
+Route::get('/postdatalaporankekerasanseksual',[LaporankekerasanSeksualController::class,'postdatalaporankekerasanseksual']);
+Route::get('/deletedatalaporankekerasanseksual',[LaporankekerasanSeksualController::class,'deletedatalaporankekerasanseksual']);
 
