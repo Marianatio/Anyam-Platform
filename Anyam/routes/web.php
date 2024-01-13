@@ -15,7 +15,34 @@ use App\Http\Controllers\ModulKomikController;
 |
 */
 
+ Route::get('/', function () {
+     return view('index');
+ });
 
+   Route::get('/about', function () {
+      return view('menu.about');
+   });
+
+   Route::get('/contact', function () {
+      return view('menu.contact');
+   });
+   Route::get('/login', function () {
+      return view('menu.login');
+   });
+   Route::get('/pricing', function () {
+      return view('menu.pricing');
+   });
+   Route::get('/service', function () {
+      return view('menu.service.service');
+   });  
+   
+   Route::get('/feedback', function () {
+      return view('menu.service.feedback');
+   });
+
+   Route::get('/detailservice', function(){
+return view('menu.service.servicedetail');
+   });
    Route::get('/firebase-config', [FirebaseController::class, 'getFirebaseConfig']);
     Route::get('/getdata', [FirebaseController::class, 'getdata']);
     Route::get('/postdata', [FirebaseController::class, 'postdata']);
